@@ -1,7 +1,4 @@
 import Foundation
-import DataStructures
-import Pitch
-import SpelledPitch
 import PitchSpeller
 
 let spellingInverter = SpellingInverter(spellings: spellings)
