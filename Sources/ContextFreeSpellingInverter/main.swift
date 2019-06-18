@@ -4,18 +4,11 @@ import Pitch
 import SpelledPitch
 import PitchSpeller
 
+let spellingInverter = SpellingInverter(spellings: spellings)
+let lookupTable = spellingInverter.generateWeights()
+
 let encoder = JSONEncoder()
 encoder.outputFormatting = .prettyPrinted
-let data = try encoder.encode(spellings)
+let data = try encoder.encode(lookupTable)
 
-let pair = OrderedPair<Int> (3, 4)
-
-let pairData = try encoder.encode(pair)
-
-let pitchA: Pitch.Spelling = .c
-let pitchB: Pitch.Spelling = .d
-
-let pitchPair: OrderedPair<Cross<Pitch.Class, Tendency>> = .init(.init(3, .up), .init(4, .down))
-
-
-let pitchPairData = try encoder.encode(pitchPair)
+print(String(data: data, encoding: .utf8)!)
