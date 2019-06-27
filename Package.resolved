@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/dn-m/Math",
         "state": {
           "branch": null,
-          "revision": "47887e0d3f0d3699a3501156314563f265e68d70",
-          "version": "0.7.0"
+          "revision": "0bf8de5d353b7b7957cb2231395f6818bc575b47",
+          "version": "0.7.1"
         }
       },
       {
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/dn-m/Music",
         "state": {
           "branch": "pitchspeller-dependency",
-          "revision": "3f894cb65d93f3a453d287c1a18c78d312712578",
+          "revision": "09289cf01bb397835232732281f59126c9a614f0",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/dn-m/NotationModel",
         "state": {
           "branch": "pitchspeller-dependency",
-          "revision": "9d70253fcaa4ccc1bfa71a31c6a4b302899f51b1",
+          "revision": "d0bc8b777b1191275654894dea556f351ba912d3",
           "version": null
         }
       },
@@ -32,9 +32,9 @@
         "package": "PerformanceTesting",
         "repositoryURL": "https://github.com/dn-m/PerformanceTesting",
         "state": {
-          "branch": null,
-          "revision": "d48417c837b1a029dd9567dfa7b5ee3cfa9a0ec7",
-          "version": "0.3.0"
+          "branch": "pitchspeller-dependency",
+          "revision": "fd97209b9465e698c51cb30dfc24db35f39fa5c5",
+          "version": null
         }
       },
       {
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/bwetherfield/PitchSpeller",
         "state": {
           "branch": "pitchspeller-dependency",
-          "revision": "f09d6cfbb18066d8b07f6d546dee7b41522d18e6",
+          "revision": "12a23b7ef3ff6c9a814917727b6e2c56ec1531ee",
           "version": null
         }
       },
@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/dn-m/Structure",
         "state": {
           "branch": "pitchspeller-dependency",
-          "revision": "1e7f08f69faa37c37b6917e710a4d39be3e0e8e7",
+          "revision": "8386aad32702a58ce0512458fbdb9ffe9a1c8357",
           "version": null
         }
       }
